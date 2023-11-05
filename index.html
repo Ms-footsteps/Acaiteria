@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--config-->
-    <link rel="stylesheet" href="Sitecss.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="theme-color" content="rgb(91, 48, 119)">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--config-->
-    
+
     <!--Topo-->
     <title>Acai</title>
     <link rel="icon" href="acai.png" type="image/x-icon">
@@ -19,70 +20,249 @@
 </head>
 <header class="scrolling-text">
 
-    <li>    
+    <li>
 
-    <a href=""><h3>&equiv;</h3></a>
+        <a href="">
+            <h3>&equiv;</h3>
+        </a>
 
-            <a href="">
-            <h1><span class="entrega">&nbsp;Opções de entrega<i class="material-icons" style="font-size:20px;">expand_more</i></span><br>
-            Insira um endereço aqui...</h1>
-            </a>
+        <a href="">
+            <h1><span class="entrega">&nbsp;Opções de entrega<i class="material-icons"
+                        style="font-size:20px;">expand_more</i></span><br>
+                Insira um endereço aqui...</h1>
+        </a>
 
-                <div style="position:absolute;right: min(30px,5vw);">
-                <a href=""><img class="img_limit" src="lupa.png" alt="pesquisa"></a>
-                </div>
+        <div style="position:absolute;right: min(30px,5vw);">
+            <a href=""><img class="img_limit" src="img/lupa.png" alt="pesquisa"></a>
+        </div>
 
     </li>
 
 </header>
+
 <body>
     <section>
         <li class="sua_imagem">
-        
-        <img class="front_img" src="sualogo.png" alt="">
-        
-                    <h1>AÇAÍ MIX</h1>
 
-        <h2><i class="material-icons" style="font-size:min(22px,7vw);color: red;">place</i>Rua acai medeiros de oliveira</h2>
+            <img class="front_img" src="img/sualogo.png" alt="">
 
-                <h3>Aberto agora</h3>
+            <h1>AÇAÍ MIX</h1>
 
-        <h4><i class="fa fa-clock-o" style="font-size:min(22px,5vw);"></i>40-60min ● Mínimo R$12,00 ● Ver Mais</h4>
+            <h2><i class="material-icons" style="font-size:min(22px,7vw);color: red;">place</i>Rua acai medeiros de
+                oliveira</h2>
+
+            <h3>Aberto agora</h3>
+
+            <h4><i class="fa fa-clock-o" style="font-size:min(22px,5vw);"></i>40-60min ● Mínimo R$12,00 ● Ver Mais</h4>
         </li>
 
     </section>
 
     <scrollingchoice class="scroller">
-            <nav>
-            <a href="#acaidomes">AÇAÍ DO MÊS</a>
-            <a href="#promo">PROMOÇÕES</a>
-            <a href="#monte">MONTE SEU AÇAÍ</a>
+        <nav>
             <a href="#tradicionais">AÇAÍS TRADICIONAIS</a>
-            <a href="#tradicionais">Sei naaao</a>
-            <a href="#tradicionais">ocupar espaçoooo</a>
-            </nav>
+            <a href="#monte">MONTE SEU AÇAÍ</a>
+            <a href="#bebidas">BEBIDAS</a>
+            <a href="#promo">PROMOÇÕES</a>
+           
+        </nav>
 
     </scrollingchoice>
 
 
     <catalogo class="catalogo">
+        
+        <div  class="sessao">
+            <h1 id="promo">Promoções<img class="icones" src="img/fire.png" alt="fogo"></h1>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Açaí 200ml <br> + Morango <br> + Banana </h2>
+                <h2>R$ 10,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaiG.png" alt="Açaí" class="item">
+                </div>
 
-        <div class="principal">
-        <h1  id="acaidomes">Açaí do mês <img class="icones" src="fogo.png" alt="fogo"></h1>
-        <h2>o que vai dentro do catalogo</h2>
+            </div>
+            <hr>
+            <div class="sub_sessao">
+              
+                <h2>Açaí 300ml <br> + Morango <br> + Kiwi</h2>
+                <h2 class="precos">R$ 15,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaipp.webp" alt="Açaí" class="item">
+                </div>
+               
+
+            </div>
+            <hr>
+            <div class="sub_sessao">
+              
+                <h2>Açaí 200ml <br> + Morango <br> + Banana </h2>
+                <h2>R$ 10,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaip.png" alt="Açaí" class="item">
+                </div>
+
+            </div>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Açaí 150ml <br> + Manga <br> + Banana </h2>
+                <h2>R$ 08,00</h2>
+                <div class="itens"> 
+                    <img src="img/acai.png" alt="Açaí" class="item">
+                </div>
+
+            </div>
+            <br>
         </div>
 
-        <div class="principal">
-        <h1 id="promo">Promoções</h1>
-        <h2>blabla</h2>
+
+        <div class="sessao" >
+            <h1 id="tradicionais">Açaís Tradicionais</h1>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Açaí 200ml <br> + Morango <br> + Banana </h2>
+                <h2>R$ 10,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaip.png" alt="Açaí" class="item">
+                </div>
+
+            </div>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Açaí 200ml <br> + Morango <br> + Banana </h2>
+                <h2>R$ 10,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaip.png" alt="Açaí" class="item">
+                </div>
+
+            </div>
+            <hr>
+            <div class="sub_sessao">
+               
+                <h2>Açaí 200ml <br> + Morango <br> + Banana </h2>
+                <h2>R$ 10,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaip.png" alt="Açaí" class="item">
+                </div>
+
+            </div>
+            <hr>
+            <div class="sub_sessao">
+             
+                <h2>Açaí 200ml <br> + Morango <br> + Banana </h2>
+                <h2>R$ 10,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaip.png" alt="Açaí" class="item">
+                </div>
+
+            </div>
+            <br>
         </div>
 
-        <div class="principal"> 
-        <h1 id="monte">asasas</h1>
+
+        <div class="sessao">
+            <h1 id="monte">Monte Seu Açaí</h1>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Açaí 300ml <br> + Morango <br> + Kiwi</h2>
+                <h2 class="precos">R$ 15,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaipp.webp" alt="Açaí" class="item">
+                </div>
+               
+
+            </div>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Açaí 300ml <br> + Morango <br> + Kiwi</h2>
+                <h2 class="precos">R$ 15,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaipp.webp" alt="Açaí" class="item">
+                </div>
+               
+
+            </div>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Açaí 300ml <br> + Morango <br> + Kiwi</h2>
+                <h2 class="precos">R$ 15,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaipp.webp" alt="Açaí" class="item">
+                </div>
+               
+
+            </div>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Açaí 300ml <br> + Morango <br> + Kiwi</h2>
+                <h2 class="precos">R$ 15,00</h2>
+                <div class="itens"> 
+                    <img src="img/acaipp.webp" alt="Açaí" class="item">
+                </div>
+
+            </div> 
+            <br>
         </div>
+
+
+        <div class="sessao">
+            <h1 id="bebidas">Bebidas</h1>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Coca Cola <br> 250 ML</h2>
+                <h2 class="precos">R$ 05,00</h2>
+                <div class="itens"> 
+                    <img src="img/Cocacola.png" alt="Açaí" class="item">
+                </div>
+
+            </div>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Sprite Lim<br> 250 ML</h2>
+                <h2 class="precos">R$ 04,00</h2>
+                <div class="itens"> 
+                    <img src="img/sprite.png" alt="Açaí" class="item">
+                </div>
+                
+            </div>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Fanta Lar. <br> 250 ML</h2>
+                <h2 class="precos">R$ 04,00</h2>
+                <div class="itens"> 
+                    <img src="img/fanta.png" alt="Açaí" class="item">
+                </div>
+
+            </div>
+            <hr>
+            <div class="sub_sessao">
+                
+                <h2>Coca Zero <br> 250 ML</h2>
+                <h2 class="precos">R$ 05,00</h2>
+                <div class="itens"> 
+                    <img src="img/CocaZero.png" alt="Açaí" class="item">
+                </div> 
+              
+            </div> 
+            <br>
+        </div>
+
 
     </catalogo>
-    
+
 </body>
-<script src="script.js"></script>
+
+
 </html>
